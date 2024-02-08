@@ -22,3 +22,4 @@ results = geocoder.geocode(query)
 
 lat = results[0]['geometry']['lat']
 lng = results[0]['geometry']['lng']
+print (lat, lng)
